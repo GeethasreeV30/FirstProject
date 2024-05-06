@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T15:34:33 IST" name="Default suite" finished-at="2024-05-03T15:35:25 IST" duration-ms="52243">
+    <groups>
+    </groups>
+    <test started-at="2024-05-03T15:34:33 IST" name="Default test" finished-at="2024-05-03T15:35:25 IST" duration-ms="52243">
+      <class name="Test_Scenarios.FilterPriceTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:34:33 IST" name="beforeTest" finished-at="2024-05-03T15:34:45 IST" duration-ms="12819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="googleSearch()[pri:0, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:34:46 IST" name="googleSearch" finished-at="2024-05-03T15:34:47 IST" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method signature="amazonURL()[pri:1, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:34:47 IST" name="amazonURL" finished-at="2024-05-03T15:34:50 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonURL -->
+        <test-method signature="amazonLogin()[pri:2, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:34:50 IST" name="amazonLogin" finished-at="2024-05-03T15:35:11 IST" duration-ms="20358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogin -->
+        <test-method signature="searchProduct()[pri:3, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:35:11 IST" name="searchProduct" finished-at="2024-05-03T15:35:19 IST" duration-ms="8391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="filterProductGet3rdProdct()[pri:4, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:35:19 IST" name="filterProductGet3rdProdct" finished-at="2024-05-03T15:35:20 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProductGet3rdProdct -->
+        <test-method signature="addToCart()[pri:5, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:35:20 IST" name="addToCart" finished-at="2024-05-03T15:35:25 IST" duration-ms="4954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test_Scenarios.FilterPriceTest@6fa51cd4]" started-at="2024-05-03T15:35:25 IST" name="afterTest" finished-at="2024-05-03T15:35:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test_Scenarios.FilterPriceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
