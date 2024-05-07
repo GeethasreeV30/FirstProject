@@ -29,6 +29,9 @@ public class GoogleSearchPage {
 
 	public void amazonApplicationSearch() {
 		try {
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollBy(0,500)", "");
+			Thread.sleep(1000);
 			driver.findElement(amazonLink).click();
 			Thread.sleep(1000);
 		} catch (Exception e) {
