@@ -13,8 +13,7 @@ public class GoogleSearchPage {
 
 	By searchBox = By.id("APjFqb");
 	By searchButton = By.xpath("(//input[@name='btnK'])[1]");
-	By amazonLink = By.className("sVXRqc");
-	
+	By amazonLink = By.xpath("//a//h3[contains(text(),'Amazon.in')]");	
 
 	public void searchGoogle(String searchInput) {
 		try {
