@@ -2,6 +2,7 @@ package Test_Scenarios;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -17,8 +18,8 @@ public class TestMethod_PageFactory_2 {
 	
 	@BeforeTest
 	public void beforeTest() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 	}
